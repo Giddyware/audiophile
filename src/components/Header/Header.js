@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 import Icon from "../Icon";
 
 import Logo from "../Logo";
-// import HeadphoneImg from './../../assets/home/mobile/image-header.jpg'
+// import HeadphoneImg from "./../../assets/home/mobile/image-header.jpg";
 
 function Header() {
   return (
@@ -40,10 +40,11 @@ const Top = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 35px 25px;
+  padding: 32px 24px;
 `;
 
 const Middle = styled.div``;
+
 const Buttom = styled.div`
   padding: 110px 60px;
   display: flex;
