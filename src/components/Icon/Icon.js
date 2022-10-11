@@ -1,9 +1,12 @@
 import styled from "styled-components/macro";
-import { ShoppingCart, AlignJustify } from "react-feather";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { IoMenu } from "react-icons/io5";
+import { HiOutlineChevronRight } from "react-icons/hi";
 
 const icons = {
-  "shopping-cart": ShoppingCart,
-  "align-justify": AlignJustify,
+  "shopping-cart": AiOutlineShoppingCart,
+  "align-justify": IoMenu,
+  "arrow-button": HiOutlineChevronRight,
 };
 const Icon = ({ id, color, size, strokeWidth, ...delegated }) => {
   const Component = icons[id];

@@ -1,11 +1,9 @@
-import Header from "./components/Header";
-import Section from "./components/Section";
+import HomePage from "./screens/Home/Homepage";
 
 function App() {
   return (
     <>
-      <Header />
-      <Section />
+      <HomePage />
     </>
   );
 }

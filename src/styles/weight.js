@@ -1,5 +1,6 @@
 export const WEIGHTS = {
-    normal: 500,
-    medium: 600,
-    bold: 800,
-  };
+  normal: 200,
+  medium: 300,
+  stong: 500,
+  bold: 700,
+};

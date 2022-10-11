@@ -11,6 +11,23 @@
 # production
 /build
 
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 18 and 19 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 25 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
 # misc
 .DS_Store
 .env.local
