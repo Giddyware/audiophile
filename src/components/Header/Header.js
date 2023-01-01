@@ -44,6 +44,9 @@ function Header() {
             made for the passionate music enthusiast.
           </Decs>
           <Button>See product</Button>
+          {/* <div> */}
+          <img src={images.heroimage} alt="A sample of products" />
+          {/* </div> */}
         </ButtomNav>
       </MainHeader>
     </header>
@@ -58,7 +61,6 @@ const MainHeader = styled.div`
 const TopNav = styled(MaxWidthWrapper)`
   display: flex;
   justify-content: space-between;
-  /* align-items: baseline; */
   padding: 32px 24px;
 
   border-bottom: 1px solid var(--color-gray-700);
@@ -67,13 +69,13 @@ const TopNav = styled(MaxWidthWrapper)`
 const MiddleNav = styled.div``;
 
 const ButtomNav = styled.div`
-  padding: 110px 60px;
+  padding: 108px 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url({images.heroEarphoneDesktop});
+  background: url(images.heroEarphoneDesktop);
   background-size: cover;
   background-repeat: no-repeat;
 `;

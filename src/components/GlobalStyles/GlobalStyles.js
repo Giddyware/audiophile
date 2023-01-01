@@ -51,14 +51,14 @@ table {
 html {
   --color-white: ${COLORS.white};
   --color-black: ${COLORS.black};
-  /* --color-offblack: ${COLORS.offblack}; */
+ 
   --color-gray-100: ${COLORS.gray[100]};
   --color-gray-300: ${COLORS.gray[300]};
-  /* --color-gray-500: ${COLORS.gray[500]}; */
+  --color-gray-500: ${COLORS.gray[500]};
   --color-gray-700: ${COLORS.gray[700]};
   --color-gray-900: ${COLORS.gray[900]};
-  --color-primary: ${COLORS.primary};
-  --color-primary_accent: ${COLORS.primary_accent};
+  --color-primary-light: ${COLORS.primary["light"]};
+  --color-primary-dark: ${COLORS.primary["normal"]};
   /* --color-secondary: ${COLORS.secondary}; */
   /* --color-urgent: ${COLORS.urgent}; */
 
@@ -102,7 +102,7 @@ html, body, #root {
 
 body {
   background-color: var(--color-gray-100);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 /*

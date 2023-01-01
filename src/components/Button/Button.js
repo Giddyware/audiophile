@@ -8,9 +8,16 @@ const Button = styled.button`
   font-family: var(--font-family-sans-serif);
   text-transform: uppercase;
   color: var(--color-white);
-  background-color: #d87d4a;
-  border: 2px solid #d87d4a;
-  /* background: var(--color-primary); */
+  background-color: var(--color-black);
 `;
 
 export default Button;
+
+// TODO   I want to build a reusable button
+
+// const Button = ({children}) => {
+//   return (
+//     <button>{children}</button>
+//   )
+// }
+// export default Button
