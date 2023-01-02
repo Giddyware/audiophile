@@ -29,6 +29,13 @@ const Home = () => {
           <Title>ZX7 SPEAKER</Title>
           <Button>see product</Button>
         </SecondBox>
+
+        <Image src="../../assets/shared/mobile/image-zx9-speaker.jpg" />
+
+        <ThirdBox>
+          <Title>YX1 EARPHONES</Title>
+          <Button>see product</Button>
+        </ThirdBox>
       </Bodywrapper>
 
       <Footer />
@@ -75,19 +82,45 @@ const SecondBox = styled.div`
   text-align: justify;
   border-radius: 8px;
   padding: 100px 24px;
-  color: black;
-
-h1{
-  width: fit-content;
-}
-
+  color: var(--color-black);
+  gap: 30px;
+  
+  h1 {
+    width: fit-content;
+    font-size: 1.75rem;
+  }
   button {
-    /* max-width: 160px; */
+    /* font-size: 0.8125rem; */
+    width: 160px;
     background-color: var(--color-gray-500);
     color: var(--color-black);
     border: 1.8px solid var(--color-black);
   }
+`;
 
+const ThirdBox = styled.div`
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  color: var(--color-black);
+  background-color: var(--color-gray-300);
+  padding: 24px;
+  margin: 24px;
+  gap: 30px;
+  
+  h1 {
+    width: max-content;
+    font-size: 1.75rem;
+  }
+
+  button {
+    /* font-size: 0.8125rem; */
+    width: 160px;
+    background-color: var(--color-gray-300);
+    color: var(--color-black);
+    border: 1.8px solid var(--color-black);
+  }
 `;
 
 const Image = styled.image`
